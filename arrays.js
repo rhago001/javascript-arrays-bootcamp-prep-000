@@ -11,6 +11,7 @@ function destructivelyAddElementToBeginningOfArray (array, element)
   return array
 }
 
+<<<<<<< HEAD
 function addElementToEndOfArray (array, element)
 
 {
@@ -56,3 +57,14 @@ function removeElementFromEndOfArray(array)
     return array.slice(0, array.length-1)
  
 }
+=======
+
+//var addElementToBeginningOfArray = ["array", " element"]
+addElementToBeginningOfArray[0] = "foo";
+
+
+//var removeElementFromBeginningOfArray=[removeElementFromBeginningOfArray.slice(1)];
+//removeElementFromBeginningOfArray=
+
+//console.log (removeElementFromBeginningOfArray)
+>>>>>>> fc479a032450a975b205867c05c48a9afa3cd2bd
